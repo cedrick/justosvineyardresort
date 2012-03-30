@@ -1,0 +1,119 @@
+<style type="text/css" href="mystyle.css" media="screen"/>
+
+
+body {
+				margin:0; padding:0; height:100%; width:100%;
+				background-color:#00a8ff;
+     }
+
+
+
+.wrapper{
+			margin:0 auto;
+			width:682px;
+			bottom:0;
+}
+
+.content_home{
+          		width:682px;
+          		height:678px;
+          		background-color:#FFFFFF;
+                background-image:url('templates/images/home.png');
+                background-repeat:no-repeat;
+}
+
+.content{
+          		width:682px;
+          		background-color:#FFFFFF;
+               
+}
+
+.content_accom{
+          		width:682px;
+          		background-color:#FFFFFF;
+               
+}
+
+.liner{
+		height:10px;
+		background-color:#31c3e7;
+}
+
+.header{
+				width:682px;
+          		background-color:#FFFFFF;
+
+}
+
+.menu{
+			width:682px;
+}
+
+
+.menu_wrap{
+			width:682px;
+			background-color:#475234;
+}
+
+.footer1{
+				width:682px;
+          		height:13px;
+          		background-color:393939;
+                
+}
+
+.footer2{
+				width:682px;
+          		height:160px;
+          		background-color:31c3e7;
+                background-image:url('templates/images/footer2.png');
+                
+}
+
+
+#home_nav:hover{
+
+COLOR:#FFFFFF;
+background-color:#D6CFCF;
+
+}
+
+
+#accom_nav:hover{
+COLOR:#FFFFFF;
+background-color:#D6CFCF;
+
+}
+
+#gallery_nav:hover{
+COLOR:#FFFFFF;
+background-color:#D6CFCF;
+
+}
+
+#contact_nav:hover{
+COLOR:#FFFFFF;
+background-color:#D6CFCF;
+
+}
+
+a:link{
+		COLOR:#FFFFFF;
+}
+
+a:visited{
+		COLOR:#FFFFFF;
+}
+
+
+body#home a#home_nav,
+body#accommodations a#accom_nav,
+body#gallery a#gallery_nav,
+body#contact a#contact_nav,
+body#about a#about_nav  {
+COLOR:#475234;
+text-shadow: #475234 1px 1px 2px;
+background-color:#d5fd9c;
+}
+	
+</style>
